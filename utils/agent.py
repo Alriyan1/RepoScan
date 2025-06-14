@@ -11,7 +11,7 @@ class Agent:
         self.prompt_template = self.create_prompt_template()
 
         self.model = ChatGroq(
-            api_key = "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",
+            api_key = "***************************************",
             model = "llama-3.3-70b-versatile",
             temperature=0.0
         )
